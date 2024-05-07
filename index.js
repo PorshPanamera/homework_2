@@ -1,0 +1,16 @@
+var q = prompt("Enter first number");
+var w = prompt("Enter second number");
+var sum = parseInt(q) + parseInt(w);
+alert(q + " + " + w + " = " + sum);
+let x = prompt("Enter first number", "");
+let y = prompt("Enter second number", "");
+var sum = parseInt(x) * parseInt(y);
+alert(x + " * " + y + " = " + sum);
+let a = prompt("Enter first number", "");
+let b = prompt("Enter second number", "");
+var sum = parseInt(a) - parseInt(b);
+alert(a + " - " + b + " = " + sum);
+let c = prompt("Enter first number", "");
+let d = prompt("Enter second number", "");
+var sum = parseInt(c) / parseInt(d);
+alert(c + " / " + d + " = " + sum);
